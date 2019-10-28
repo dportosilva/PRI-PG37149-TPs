@@ -24,13 +24,13 @@
         <p>Criação de um servidor JavaScript para exibir músicas a partir de arquivos XML.</p>
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/pr.dtd">DTD do manifesto</deliverable>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/pr.xml">XML do manifesto</deliverable>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/pr.xsl">XLS do manifesto</deliverable>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/pr.html">HTML do manifesto</deliverable>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/arq-son-EVO.xml">XML completo das músicas</deliverable>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/arq_son.xls">XSL para separar músicas por XML</deliverable>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/doc2html.xls">XSL para configurar exibição das músicas</deliverable>
-        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP4/sonetos.js">Servidor em JavaScript</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/pr.dtd">DTD do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/pr.xml">XML do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/pr.xsl">XLS do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/pr.html">HTML do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/arq-son-EVO.xml">XML completo das músicas</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/arq_son.xls">XSL para separar músicas por XML</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/doc2html.xls">XSL para configurar exibição das músicas</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP4/sonetos.js">Servidor em JavaScript</deliverable>
     </deliverables>
 </pr>
