@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI2019-PG37149-TP5</keyname>
+        <title>TP5</title>
+        <bdate>28-10-2019</bdate>
+        <edate>24-11-2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>PG37149</identifier>
+            <name>Diego Porto da Silva</name>
+            <email>pg37149@alunos.uminho.pt</email>
+            <photo path="photo.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Criação de um servidor JavaScript para gestão de alunos onde seja possível registrar e excluir alunos, bem como registrar e excluir suas notas.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP5/pr.dtd">DTD do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP5/pr.xml">XML do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP5/pr.xsl">XLS do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/tree/master/TP5/pr.html">HTML do manifesto</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP5/TP5/routes/index.js">JavaScript Index</deliverable>
+        <deliverable path="https://github.com/dportosilva/PRI-PG37149-TPs/blob/master/TP5/TP5/data/alunos.json">BD JSON</deliverable>
+    </deliverables>
+</pr>
