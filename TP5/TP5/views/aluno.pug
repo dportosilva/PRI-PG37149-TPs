@@ -1,0 +1,35 @@
+extends layout
+block content
+    .w3-container
+        header.w3-container.w3-card-4.w3-teal
+            h1= 'Aluno: ' + lista.nome
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Registrar Nota
+            .w3-container
+                form.w3-container(action='/alunos/' + lista.utilizador + '/notas' method='POST')
+                    br
+                    label
+                        b Identificador
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='identificador')
+                    label 
+                        b Nota 
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='nota')
+                    br
+                    input.w3-btn.w3-blue-grey(type='submit' value='Enviar')
+                br            
+        .w3-card-4
+            br
+            table.w3-table
+                tr
+                    th Identificador
+                    th Nota
+                each i in lista.notas
+                    tr  
+                        td= i.identificador
+                        td= i.nota
+                        td
+                          button.w3-blue-grey(onclick="excluiNota('" + lista.utilizador + ',' + i.identificador + "')") Apagar
+        footer.w3-container.w3-teal
+            address Desenvolvido por Diego Porto
