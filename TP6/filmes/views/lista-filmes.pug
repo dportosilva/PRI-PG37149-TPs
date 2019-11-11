@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    .w3-container
+        header.w3-container.w3-card-4.w3-purple
+            h2 Lista de Filmes
+    .w3-container
+        table.w3-table-all
+            each filme in lista
+                tr
+                    td 
+                        a(href="http://localhost:3004/filmes/" + filme._id)=filme.title 
+                        
+                          
+                        
