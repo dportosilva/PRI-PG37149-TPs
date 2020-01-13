@@ -1,0 +1,11 @@
+Para a persistência de dados foi realizado a importação do dataset para o MongoDB.
+Primeiramente foi corrigido a formatação do dataset disponibilizado.
+Após foi utilizado o comando abaixo:
+
+mongoimport -d pubs -c pubs --file jcrpubs.json --jsonArray
+
+Onde:
+-d especifica o nome da database
+-c especifica o nome da coleção
+--file representa o dataset a ser importado
+--jsonArray permite a importação de vários documentos em uma única matriz JSON. 
