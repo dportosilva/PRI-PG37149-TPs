@@ -5,6 +5,7 @@ Quantos Entidades pertencem à Tipologia tip_FSS?
 5
 
 Em que processos a tipologia tip_FA participa como Comunicador?
+1
 
 A que tipologias pertence a entidade ent_SEF?
 Administração Pública(tip_AP) e Forças e serviços de segurança(tip_FSS)
